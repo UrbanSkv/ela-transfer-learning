@@ -46,6 +46,11 @@ Contains the visualizations of the shapley values.
 ### visualization
 Contains the code for the visualization of the data.
 
+### matlab
+Contains the matlab data that was used to process problem samples and determine the best performing algorithms on each COCO problems. Requires the code from https://github.com/bimk/algorithm-recommendation for the artificial problem generator (generate.m) and to evaluate the best performing algorithms. This code should be placed to the matlab folder.
+
+The code for processing COCO problems (coco_get_best.m and coco_evaluate.m ) is based on examples from https://github.com/numbbo/coco and requires the COCO platform to be set up following the instructions in the repository.
+
 
 
 
